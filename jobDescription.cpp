@@ -9,7 +9,7 @@ int main()
     // &&
     // ||
     bool isUSCitizen = true;
-    bool hasBachelorDegree = true;
+    bool hasBachelorDegree = false;
     short yearsOFExperience = 1;
     bool isEligible = (isUSCitizen) && (hasBachelorDegree || yearsOFExperience >= 2);
 
